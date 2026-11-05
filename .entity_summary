@@ -1,0 +1,3 @@
+- Firmen (firmen): firmenname[string/text], branche[string/text], strasse[string/text], hausnummer[string/text], plz[string/text], ort[string/text], land[string/text], telefon[string/tel], email[string/email], website[string/url], bemerkung[string/textarea]
+- Kontakte (kontakte): anrede[lookup/radio], vorname[string/text], nachname[string/text], position[string/text], firma[applookup/select], kontaktart[lookup/select], status[lookup/select], email[string/email], telefon[string/tel], mobil[string/tel], strasse[string/text], hausnummer[string/text], plz[string/text], ort[string/text], land[string/text], geburtstag[date/date], bemerkung[string/textarea]
+  → firma links to app_id 6aec650817ce0acfaebb198e

@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "firmen",
+      "app_id": "6aec650817ce0acfaebb198e",
+      "path": "/rest/apps/6aec650817ce0acfaebb198e/records",
+      "allowed_fields": [
+        "firmenname",
+        "branche",
+        "strasse",
+        "hausnummer",
+        "plz",
+        "ort",
+        "land",
+        "telefon",
+        "email",
+        "website",
+        "bemerkung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Firmen — Formular"
+    },
+    {
+      "entity": "kontakte",
+      "app_id": "6aec650b1a7c61d36d3f3f26",
+      "path": "/rest/apps/6aec650b1a7c61d36d3f3f26/records",
+      "allowed_fields": [
+        "anrede",
+        "vorname",
+        "nachname",
+        "position",
+        "kontaktart",
+        "status",
+        "email",
+        "telefon",
+        "mobil",
+        "strasse",
+        "hausnummer",
+        "plz",
+        "ort",
+        "land",
+        "geburtstag",
+        "bemerkung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kontakte — Formular"
+    }
+  ]
+}
